@@ -11,7 +11,7 @@ Surfs Up! I've decided to treat myself to a long holiday vacation in Honolulu, H
 To begin, I used Python and SQLAlchemy to do climate analysis and data exploration of my climate database. I then used create_engine to connect to sqlite database and automap_base() to reflect my tables into classes and save a reference to those classes called `Station` and `Measurement`.
 * Libraries used: SQLAlchemy ORM, Pandas, and Matplotlib.
 * Data source: [hawaii.sqlite](Resources/hawaii.sqlite)
-* Tool Used: [Jupyter Notebook](climate_starter.ipynb) 
+* Tool Used: [Jupyter Notebook](Climate_Final.ipynb) 
 
 ### Precipitation Analysis
 
@@ -25,7 +25,7 @@ Here is what I did to get precipitation data:
 
   ![precipitation](Images/precipitation.png)
   
-  ![Precipitation Summary Statistics](Images/precipitation.png)
+  ![Precipitation Summary Statistics](Images/describe.png)
 
 
 ### Station Analysis
