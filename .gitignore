@@ -1,0 +1,17 @@
+# Jupyter checkpoints #
+######################
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+######################
+__pycache__/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+######################.py
+# Logs and databases #
+######################
+*.log
