@@ -4,7 +4,7 @@
 
 ![surfs-up.png](Images/surfs-up.png)
 
-Surfs Up! I've decided to treat myself to a long holiday vacation in Honolulu, Hawaii! I'll be spending 10 sweet days in paradise and only want the best weather while I'm there. To help with my trip planning, I need to do some climate analysis on the area. Here's what I did to make sure my trip was a success!
+Surfs Up! I've decided to treat myself to a long holiday vacation in Honolulu, Hawaii! I'll be spending 10 sweet days in paradise and only want the best weather while I'm there. To help with my trip planning, I need to do some climate analysis on the area based off of weather data from the previous years. Here's what I did to make sure my trip was a success!
 
 ## Step 1 - Climate Analysis and Exploration
 
@@ -23,9 +23,15 @@ Here is what I did to get precipitation data:
 * Plot the results using the DataFrame `plot` method.
 * Use Pandas to print the summary statistics for the precipitation data.
 
-  ![precipitation](Images/precipitation.png)
+Precipitation plot over the last 12 months: 
+Based off of the plot below, heaviest rainfall happened around September, February, April, and July which is perfect because the plan is to go in June! The June rainfall isn't the lowest as compared to around March and December but the chances of it ruining the trip is low.
   
-  ![Precipitation Summary Statistics](Images/describe.png)
+![precipitation](Images/precipitation.png)
+  
+Summary Statistics:
+Despite the high peeks of rainfall in the plot above and the max recorded rainfall of 6.7 inches displayed below, the average is very minimal. Even in the 75% quartile only has rainfall at 0.13 inches.
+  
+![Precipitation Summary Statistics](Images/describe.png)
 
 
 ### Station Analysis
@@ -39,7 +45,10 @@ Here is what I did to get station data:
 * Filter by the station with the highest number of observations.
 * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/station-histogram.png)
+Recorded Temperatures from Station WAIHEE 837.5(USC00519281):
+This weather station had the top temperature recordings of 2,772 observations. The lowest recorded temperature was 54°F, the highest wass 85°F, and the average for teh year was 71.7°F. The highest recorded temperature had about 65 observations. Since this location recorded the most temperatures, there is a stronger reasurance in its accuracy for this trip.
+
+![station-histogram](Images/station-histogram.png)
 
 - - -
 
@@ -56,7 +65,10 @@ My goals for this analysis were:
 * Use the average temperature as the bar height.
 * Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
 
-    ![temperature](Images/temperature.png)
+Temperature Forecast for My Trip:
+I wanted to schedule the trip for June 20 to June 30 so a prepared function labelled 'calc_temps' was used to forecast what the temperature might be based off of previous year's data. Below displays what the potencial temperature might be. The lowest temperature is 71°F, average is 77°F, and highest 82°F which would be perfect!
+
+![temperature](Images/temperature.png)
 
 ### Daily Rainfall Average
 
@@ -68,7 +80,10 @@ My goals for this analysis were:
 * Use daily normals and save it into a Pandas DataFrame and set the index equal to the date.
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
-  ![daily-normals](Images/daily-normals.png)
+Precipitation Forecast:
+The the potentical rain for this trip confirms what was seen in the first plot above which was minimal. Based off of Station Manoa Lyon Arbo 785.2 (USC00516128), the rain fall recorded was 0.50 inches. So with all the information gathered, it looks like my 10 day trip starting June 20th would be a great time to go!
+
+![daily-normals](Images/daily-normals.png)
 
 ### Copyright
 
