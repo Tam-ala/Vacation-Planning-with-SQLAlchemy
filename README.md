@@ -88,7 +88,7 @@ Precipitation Forecast:
 
 The the potentical rain for this trip confirms what was seen in the first plot above which was minimal. Based off of Station Manoa Lyon Arbo 785.2 (USC00516128), the rain fall recorded was 0.50 inches. So with all the information gathered, it looks like my 10 day trip starting June 20th would be a great time to go!
 
-![daily-normals](Images/daily-normals.png)
+![daily normals](Images/daily_normals.png)
 
 ### Copyright
 
