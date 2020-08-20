@@ -1,4 +1,4 @@
-# SQLAlchemy Homework - Surfs Up!
+# Vacation Planning with SQLAlchemy 
 
 ### Background
 
